@@ -20,5 +20,10 @@ namespace caseopener
         {
             InitializeComponent();
         }
+
+        private void OpenCase_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
