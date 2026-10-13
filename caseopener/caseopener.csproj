@@ -9,10 +9,37 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="resources\aug.png" />
+    <None Remove="resources\Glock-18.png" />
+    <None Remove="resources\M4A1-S.png" />
+    <None Remove="resources\mp7.png" />
+    <None Remove="resources\SG553.png" />
+    <None Remove="resources\USP-S.png" />
     <None Remove="resources\weaponcase.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="resources\aug.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\Glock-18.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\M4A1-S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\mp7.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\SG553.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="resources\USP-S.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="resources\weaponcase.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

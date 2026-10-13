@@ -10,7 +10,8 @@
 
     <Grid>
         <StackPanel>
-            <Button 
+            <Button
+            HorizontalAlignment="Left"
             Content="Back"
             Width="100" 
             Height="30" 

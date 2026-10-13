@@ -9,21 +9,29 @@
       Title="HomePage">
 
     <Grid>
-        <StackPanel 
-            HorizontalAlignment="Center" 
-            VerticalAlignment="Center">
-        
-        <TextBlock
-            Text="Strona Główna"
-            FontSize="28"
-        />
+        <StackPanel>
+            <TextBlock 
+                x:Name="txtTitle"
+                Text="Case Opener" 
+                FontSize="24" 
+                FontWeight="Bold" 
+                Margin="10" 
+    />
+            <Image 
+                x:Name="imgLogo"
+                Source="/resources/weaponcase.png" 
+                Width="200" 
+                Height="200" 
+                Margin="10"
+                Stretch="Uniform"
+    />
 
-        <Button
-            Content="Otwórz Skrzynkę"
-            Width="150"
-            Height="40"
-            Margin="10"
-            Click="OpenCase_Click"
+            <Button
+                Content="Otwórz Skrzynkę"
+                Width="150"
+                Height="40"
+                Margin="10"
+                Click="OpenCase_Click"
         />
 
         </StackPanel>
