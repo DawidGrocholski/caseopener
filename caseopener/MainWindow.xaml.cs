@@ -19,11 +19,7 @@ namespace caseopener
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void OpenCase_Click(object sender, RoutedEventArgs e)
-        {
-
+            MainFrame.Navigate(new HomePage());
         }
     }
 }
